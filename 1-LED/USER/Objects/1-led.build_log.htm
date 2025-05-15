@@ -1,0 +1,865 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.32.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: tianwen ÃÏŒ , tianwen, LIC=ATTQ1-CR82E-X7DRZ-JXJE9-CRL7M-68X9D
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.32.0.0
+Toolchain Path:  D:\zhi nen xiao che\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.32.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.9.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+D:\Stm32c8t6\1-LED\USER\1-led.uvprojx
+Project File Date:  03/12/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\zhi nen xiao che\ARM\ARMCC\Bin'
+Build target 'Target 1'
+assembling startup_stm32f10x_md.s...
+compiling stm32f10x_bkp.c...
+..\FWLIB\src\stm32f10x_bkp.c(136): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_BKP_TAMPER_PIN_LEVEL(BKP_TamperPinLevel));
+..\FWLIB\src\stm32f10x_bkp.c(149): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_bkp.c(162): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_bkp.c(183): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_BKP_RTC_OUTPUT_SOURCE(BKP_RTCOutputSource));
+..\FWLIB\src\stm32f10x_bkp.c(204): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_BKP_CALIBRATION_VALUE(CalibrationValue));
+..\FWLIB\src\stm32f10x_bkp.c(226): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_BKP_DR(BKP_DR));
+..\FWLIB\src\stm32f10x_bkp.c(245): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_BKP_DR(BKP_DR));
+..\FWLIB\src\stm32f10x_bkp.c: 7 warnings, 0 errors
+compiling misc.c...
+..\FWLIB\src\misc.c(98): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_NVIC_PRIORITY_GROUP(NVIC_PriorityGroup));
+..\FWLIB\src\misc.c(116): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NVIC_InitStruct->NVIC_IRQChannelCmd));
+..\FWLIB\src\misc.c(158): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_NVIC_VECTTAB(NVIC_VectTab));
+..\FWLIB\src\misc.c(177): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_NVIC_LP(LowPowerMode));
+..\FWLIB\src\misc.c(201): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SYSTICK_CLK_SOURCE(SysTick_CLKSource));
+..\FWLIB\src\misc.c: 5 warnings, 0 errors
+compiling core_cm3.c...
+compiling stm32f10x_adc.c...
+..\FWLIB\src\stm32f10x_adc.c(181): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(222): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(301): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(326): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_DMA_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(356): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(381): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(395): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(419): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(433): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(459): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(484): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(513): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(538): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(593): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(688): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(710): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(736): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(762): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(802): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(826): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(851): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(876): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(933): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(997): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(1029): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(1056): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(1085): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(1110): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(1148): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(1169): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_adc.c(1198): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(1230): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(1251): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c(1286): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_ADC_ALL_PERIPH(ADCx));
+..\FWLIB\src\stm32f10x_adc.c: 34 warnings, 0 errors
+compiling stm32f10x_cec.c...
+..\FWLIB\src\stm32f10x_cec.c(139): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CEC_BIT_TIMING_ERROR_MODE(CEC_InitStruct->CEC_BitTimingMode)); 
+..\FWLIB\src\stm32f10x_cec.c(166): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_cec.c(188): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_cec.c(201): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CEC_ADDRESS(CEC_OwnAddress));
+..\FWLIB\src\stm32f10x_cec.c(215): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CEC_PRESCALER(CEC_Prescaler));
+..\FWLIB\src\stm32f10x_cec.c(264): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_cec.c(296): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CEC_GET_FLAG(CEC_FLAG));
+..\FWLIB\src\stm32f10x_cec.c(353): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CEC_CLEAR_FLAG(CEC_FLAG));
+..\FWLIB\src\stm32f10x_cec.c(377): warning:  #223-D: function "assert_param" declared implicitly
+     assert_param(IS_CEC_GET_IT(CEC_IT));
+..\FWLIB\src\stm32f10x_cec.c(412): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CEC_GET_IT(CEC_IT));
+..\FWLIB\src\stm32f10x_cec.c: 10 warnings, 0 errors
+compiling stm32f10x_dma.c...
+..\FWLIB\src\stm32f10x_dma.c(110): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DMA_ALL_PERIPH(DMAy_Channelx));
+..\FWLIB\src\stm32f10x_dma.c(206): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DMA_ALL_PERIPH(DMAy_Channelx));
+..\FWLIB\src\stm32f10x_dma.c(296): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DMA_ALL_PERIPH(DMAy_Channelx));
+..\FWLIB\src\stm32f10x_dma.c(328): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DMA_ALL_PERIPH(DMAy_Channelx));
+..\FWLIB\src\stm32f10x_dma.c(355): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DMA_ALL_PERIPH(DMAy_Channelx));
+..\FWLIB\src\stm32f10x_dma.c(373): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DMA_ALL_PERIPH(DMAy_Channelx));
+..\FWLIB\src\stm32f10x_dma.c(438): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DMA_GET_FLAG(DMAy_FLAG));
+..\FWLIB\src\stm32f10x_dma.c(525): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DMA_CLEAR_FLAG(DMAy_FLAG));
+..\FWLIB\src\stm32f10x_dma.c(600): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DMA_GET_IT(DMAy_IT));
+..\FWLIB\src\stm32f10x_dma.c(686): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DMA_CLEAR_IT(DMAy_IT));
+..\FWLIB\src\stm32f10x_dma.c: 10 warnings, 0 errors
+compiling stm32f10x_dac.c...
+..\FWLIB\src\stm32f10x_dac.c(120): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DAC_TRIGGER(DAC_InitStruct->DAC_Trigger));
+..\FWLIB\src\stm32f10x_dac.c(175): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DAC_CHANNEL(DAC_Channel));
+..\FWLIB\src\stm32f10x_dac.c(235): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DAC_CHANNEL(DAC_Channel));
+..\FWLIB\src\stm32f10x_dac.c(262): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DAC_CHANNEL(DAC_Channel));
+..\FWLIB\src\stm32f10x_dac.c(286): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_dac.c(316): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DAC_CHANNEL(DAC_Channel));
+..\FWLIB\src\stm32f10x_dac.c(346): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DAC_ALIGN(DAC_Align));
+..\FWLIB\src\stm32f10x_dac.c(371): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DAC_ALIGN(DAC_Align));
+..\FWLIB\src\stm32f10x_dac.c(400): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DAC_ALIGN(DAC_Align));
+..\FWLIB\src\stm32f10x_dac.c(434): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DAC_CHANNEL(DAC_Channel));
+..\FWLIB\src\stm32f10x_dac.c: 10 warnings, 0 errors
+compiling stm32f10x_fsmc.c...
+..\FWLIB\src\stm32f10x_fsmc.c(104): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FSMC_NORSRAM_BANK(FSMC_Bank));
+..\FWLIB\src\stm32f10x_fsmc.c(131): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FSMC_NAND_BANK(FSMC_Bank));
+..\FWLIB\src\stm32f10x_fsmc.c(178): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FSMC_NORSRAM_BANK(FSMC_NORSRAMInitStruct->FSMC_Bank));
+..\FWLIB\src\stm32f10x_fsmc.c(266): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param( IS_FSMC_NAND_BANK(FSMC_NANDInitStruct->FSMC_Bank));
+..\FWLIB\src\stm32f10x_fsmc.c(330): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FSMC_WAIT_FEATURE(FSMC_PCCARDInitStruct->FSMC_Waitfeature));
+..\FWLIB\src\stm32f10x_fsmc.c(476): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FSMC_NORSRAM_BANK(FSMC_Bank));
+..\FWLIB\src\stm32f10x_fsmc.c(502): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FSMC_NAND_BANK(FSMC_Bank));
+..\FWLIB\src\stm32f10x_fsmc.c(539): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_fsmc.c(565): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FSMC_NAND_BANK(FSMC_Bank));
+..\FWLIB\src\stm32f10x_fsmc.c(638): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FSMC_IT_BANK(FSMC_Bank));
+..\FWLIB\src\stm32f10x_fsmc.c(702): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FSMC_GETFLAG_BANK(FSMC_Bank));
+..\FWLIB\src\stm32f10x_fsmc.c(749): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FSMC_GETFLAG_BANK(FSMC_Bank));
+..\FWLIB\src\stm32f10x_fsmc.c(787): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FSMC_IT_BANK(FSMC_Bank));
+..\FWLIB\src\stm32f10x_fsmc.c(835): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FSMC_IT_BANK(FSMC_Bank));
+..\FWLIB\src\stm32f10x_fsmc.c: 14 warnings, 0 errors
+compiling stm32f10x_i2c.c...
+..\FWLIB\src\stm32f10x_i2c.c(164): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(197): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(324): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(348): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(372): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(396): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(420): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(444): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(469): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(494): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(518): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(547): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(572): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(585): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(603): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(640): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(660): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(698): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(726): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(750): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(781): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(805): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(827): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(842): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(866): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(892): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(1036): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(1083): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(1138): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(1215): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(1251): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c(1310): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_I2C_ALL_PERIPH(I2Cx));
+..\FWLIB\src\stm32f10x_i2c.c: 32 warnings, 0 errors
+compiling stm32f10x_can.c...
+..\FWLIB\src\stm32f10x_can.c(124): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(158): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(295): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_FILTER_NUMBER(CAN_FilterInitStruct->CAN_FilterNumber));
+..\FWLIB\src\stm32f10x_can.c(430): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_BANKNUMBER(CAN_BankNumber));
+..\FWLIB\src\stm32f10x_can.c(453): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(483): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(518): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(593): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(645): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(673): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(722): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(746): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(781): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(860): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(887): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(926): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(950): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(970): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(1005): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(1047): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(1146): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(1206): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c(1308): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_CAN_ALL_PERIPH(CANx));
+..\FWLIB\src\stm32f10x_can.c: 23 warnings, 0 errors
+compiling stm32f10x_sdio.c...
+..\FWLIB\src\stm32f10x_sdio.c(185): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SDIO_CLOCK_EDGE(SDIO_InitStruct->SDIO_ClockEdge));
+..\FWLIB\src\stm32f10x_sdio.c(237): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_sdio.c(253): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SDIO_POWER_STATE(SDIO_PowerState));
+..\FWLIB\src\stm32f10x_sdio.c(308): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SDIO_IT(SDIO_IT));
+..\FWLIB\src\stm32f10x_sdio.c(332): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_sdio.c(349): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SDIO_CMD_INDEX(SDIO_CmdInitStruct->SDIO_CmdIndex));
+..\FWLIB\src\stm32f10x_sdio.c(415): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SDIO_RESP(SDIO_RESP));
+..\FWLIB\src\stm32f10x_sdio.c(434): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SDIO_DATA_LENGTH(SDIO_DataInitStruct->SDIO_DataLength));
+..\FWLIB\src\stm32f10x_sdio.c(530): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_sdio.c(544): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_sdio.c(560): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SDIO_READWAIT_MODE(SDIO_ReadWaitMode));
+..\FWLIB\src\stm32f10x_sdio.c(574): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_sdio.c(588): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_sdio.c(602): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_sdio.c(615): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_sdio.c(628): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_sdio.c(669): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SDIO_FLAG(SDIO_FLAG));
+..\FWLIB\src\stm32f10x_sdio.c(705): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SDIO_CLEAR_FLAG(SDIO_FLAG));
+..\FWLIB\src\stm32f10x_sdio.c(746): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SDIO_GET_IT(SDIO_IT));
+..\FWLIB\src\stm32f10x_sdio.c(780): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SDIO_CLEAR_IT(SDIO_IT));
+..\FWLIB\src\stm32f10x_sdio.c: 20 warnings, 0 errors
+compiling stm32f10x_gpio.c...
+..\FWLIB\src\stm32f10x_gpio.c(110): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+..\FWLIB\src\stm32f10x_gpio.c(177): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+..\FWLIB\src\stm32f10x_gpio.c(285): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+..\FWLIB\src\stm32f10x_gpio.c(307): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+..\FWLIB\src\stm32f10x_gpio.c(323): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+..\FWLIB\src\stm32f10x_gpio.c(345): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+..\FWLIB\src\stm32f10x_gpio.c(360): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+..\FWLIB\src\stm32f10x_gpio.c(376): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+..\FWLIB\src\stm32f10x_gpio.c(396): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+..\FWLIB\src\stm32f10x_gpio.c(419): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+..\FWLIB\src\stm32f10x_gpio.c(436): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+..\FWLIB\src\stm32f10x_gpio.c(465): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_GPIO_EVENTOUT_PORT_SOURCE(GPIO_PortSource));
+..\FWLIB\src\stm32f10x_gpio.c(485): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_gpio.c(553): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_GPIO_REMAP(GPIO_Remap));
+..\FWLIB\src\stm32f10x_gpio.c(612): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_GPIO_EXTI_PORT_SOURCE(GPIO_PortSource));
+..\FWLIB\src\stm32f10x_gpio.c(631): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_GPIO_ETH_MEDIA_INTERFACE(GPIO_ETH_MediaInterface)); 
+..\FWLIB\src\stm32f10x_gpio.c: 16 warnings, 0 errors
+compiling led.c...
+compiling stm32f10x_rtc.c...
+..\FWLIB\src\stm32f10x_rtc.c(92): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RTC_IT(RTC_IT));  
+..\FWLIB\src\stm32f10x_rtc.c(175): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RTC_PRESCALER(PrescalerValue));
+..\FWLIB\src\stm32f10x_rtc.c(261): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RTC_GET_FLAG(RTC_FLAG)); 
+..\FWLIB\src\stm32f10x_rtc.c(288): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RTC_CLEAR_FLAG(RTC_FLAG)); 
+..\FWLIB\src\stm32f10x_rtc.c(307): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RTC_GET_IT(RTC_IT)); 
+..\FWLIB\src\stm32f10x_rtc.c(333): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RTC_IT(RTC_IT));  
+..\FWLIB\src\stm32f10x_rtc.c: 6 warnings, 0 errors
+compiling TIM.c...
+compiling stm32f10x_dbgmcu.c...
+..\FWLIB\src\stm32f10x_dbgmcu.c(136): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_DBGMCU_PERIPH(DBGMCU_Periph));
+..\FWLIB\src\stm32f10x_dbgmcu.c: 1 warning, 0 errors
+compiling stm32f10x_crc.c...
+compiling stm32f10x_pwr.c...
+..\FWLIB\src\stm32f10x_pwr.c(126): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_pwr.c(139): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_pwr.c(161): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_PWR_PVD_LEVEL(PWR_PVDLevel));
+..\FWLIB\src\stm32f10x_pwr.c(180): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_pwr.c(200): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_PWR_REGULATOR(PWR_Regulator));
+..\FWLIB\src\stm32f10x_pwr.c(263): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_PWR_GET_FLAG(PWR_FLAG));
+..\FWLIB\src\stm32f10x_pwr.c(288): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_PWR_CLEAR_FLAG(PWR_FLAG));
+..\FWLIB\src\stm32f10x_pwr.c: 7 warnings, 0 errors
+compiling stm32f10x_flash.c...
+..\FWLIB\src\stm32f10x_flash.c(253): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FLASH_LATENCY(FLASH_Latency));
+..\FWLIB\src\stm32f10x_flash.c(278): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FLASH_HALFCYCLEACCESS_STATE(FLASH_HalfCycleAccess));
+..\FWLIB\src\stm32f10x_flash.c(297): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FLASH_PREFETCHBUFFER_STATE(FLASH_PrefetchBuffer));
+..\FWLIB\src\stm32f10x_flash.c(417): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FLASH_ADDRESS(Page_Address));
+..\FWLIB\src\stm32f10x_flash.c(681): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FLASH_ADDRESS(Address));
+..\FWLIB\src\stm32f10x_flash.c(856): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FLASH_ADDRESS(Address));
+..\FWLIB\src\stm32f10x_flash.c(927): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_OB_DATA_ADDRESS(Address));
+..\FWLIB\src\stm32f10x_flash.c(976): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FLASH_WRPROT_PAGE(FLASH_Pages));
+..\FWLIB\src\stm32f10x_flash.c(1047): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_flash.c(1117): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_OB_IWDG_SOURCE(OB_IWDG));
+..\FWLIB\src\stm32f10x_flash.c(1319): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FLASH_IT(FLASH_IT)); 
+..\FWLIB\src\stm32f10x_flash.c(1396): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FLASH_GET_FLAG(FLASH_FLAG)) ;
+..\FWLIB\src\stm32f10x_flash.c(1456): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FLASH_CLEAR_FLAG(FLASH_FLAG)) ;
+..\FWLIB\src\stm32f10x_flash.c: 13 warnings, 0 errors
+compiling stm32f10x_exti.c...
+..\FWLIB\src\stm32f10x_exti.c(105): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_EXTI_MODE(EXTI_InitStruct->EXTI_Mode));
+..\FWLIB\src\stm32f10x_exti.c(173): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_EXTI_LINE(EXTI_Line));
+..\FWLIB\src\stm32f10x_exti.c(189): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_GET_EXTI_LINE(EXTI_Line));
+..\FWLIB\src\stm32f10x_exti.c(211): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_EXTI_LINE(EXTI_Line));
+..\FWLIB\src\stm32f10x_exti.c(228): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_GET_EXTI_LINE(EXTI_Line));
+..\FWLIB\src\stm32f10x_exti.c(251): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_EXTI_LINE(EXTI_Line));
+..\FWLIB\src\stm32f10x_exti.c: 6 warnings, 0 errors
+compiling stm32f10x_iwdg.c...
+..\FWLIB\src\stm32f10x_iwdg.c(94): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_IWDG_WRITE_ACCESS(IWDG_WriteAccess));
+..\FWLIB\src\stm32f10x_iwdg.c(114): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_IWDG_PRESCALER(IWDG_Prescaler));
+..\FWLIB\src\stm32f10x_iwdg.c(127): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_IWDG_RELOAD(Reload));
+..\FWLIB\src\stm32f10x_iwdg.c(164): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_IWDG_FLAG(IWDG_FLAG));
+..\FWLIB\src\stm32f10x_iwdg.c: 4 warnings, 0 errors
+compiling stm32f10x_wwdg.c...
+..\FWLIB\src\stm32f10x_wwdg.c(121): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_WWDG_PRESCALER(WWDG_Prescaler));
+..\FWLIB\src\stm32f10x_wwdg.c(141): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_WWDG_WINDOW_VALUE(WindowValue));
+..\FWLIB\src\stm32f10x_wwdg.c(172): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_WWDG_COUNTER(Counter));
+..\FWLIB\src\stm32f10x_wwdg.c(187): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_WWDG_COUNTER(Counter));
+..\FWLIB\src\stm32f10x_wwdg.c: 4 warnings, 0 errors
+compiling stm32f10x_rcc.c...
+..\FWLIB\src\stm32f10x_rcc.c(272): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_HSE(RCC_HSE));
+..\FWLIB\src\stm32f10x_rcc.c(337): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_CALIBRATION_VALUE(HSICalibrationValue));
+..\FWLIB\src\stm32f10x_rcc.c(356): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_rcc.c(382): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_PLL_SOURCE(RCC_PLLSource));
+..\FWLIB\src\stm32f10x_rcc.c(403): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_rcc.c(567): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_SYSCLK_SOURCE(RCC_SYSCLKSource));
+..\FWLIB\src\stm32f10x_rcc.c(611): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_HCLK(RCC_SYSCLK));
+..\FWLIB\src\stm32f10x_rcc.c(637): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_PCLK(RCC_HCLK));
+..\FWLIB\src\stm32f10x_rcc.c(663): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_PCLK(RCC_HCLK));
+..\FWLIB\src\stm32f10x_rcc.c(702): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_IT(RCC_IT));
+..\FWLIB\src\stm32f10x_rcc.c(730): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_USBCLK_SOURCE(RCC_USBCLKSource));
+..\FWLIB\src\stm32f10x_rcc.c(769): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_ADCCLK(RCC_PCLK2));
+..\FWLIB\src\stm32f10x_rcc.c(832): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_LSE(RCC_LSE));
+..\FWLIB\src\stm32f10x_rcc.c(865): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_rcc.c(882): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_RTCCLK_SOURCE(RCC_RTCCLKSource));
+..\FWLIB\src\stm32f10x_rcc.c(896): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_rcc.c(1067): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_AHB_PERIPH(RCC_AHBPeriph));
+..\FWLIB\src\stm32f10x_rcc.c(1098): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_APB2_PERIPH(RCC_APB2Periph));
+..\FWLIB\src\stm32f10x_rcc.c(1129): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_APB1_PERIPH(RCC_APB1Periph));
+..\FWLIB\src\stm32f10x_rcc.c(1188): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_APB2_PERIPH(RCC_APB2Periph));
+..\FWLIB\src\stm32f10x_rcc.c(1219): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_APB1_PERIPH(RCC_APB1Periph));
+..\FWLIB\src\stm32f10x_rcc.c(1240): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_rcc.c(1253): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_FUNCTIONAL_STATE(NewState));
+..\FWLIB\src\stm32f10x_rcc.c(1285): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_MCO(RCC_MCO));
+..\FWLIB\src\stm32f10x_rcc.c(1332): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_FLAG(RCC_FLAG));
+..\FWLIB\src\stm32f10x_rcc.c(1406): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_GET_IT(RCC_IT));
+..\FWLIB\src\stm32f10x_rcc.c(1451): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_RCC_CLEAR_IT(RCC_IT));
+..\FWLIB\src\stm32f10x_rcc.c: 27 warnings, 0 errors
+compiling stm32f10x_spi.c...
+..\FWLIB\src\stm32f10x_spi.c(121): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(162): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));   
+..\FWLIB\src\stm32f10x_spi.c(226): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_23_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(429): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(453): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_23_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(485): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(523): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(549): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(565): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(583): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(607): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(633): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(649): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(665): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(692): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(716): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(734): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(769): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(806): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(834): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c(886): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_SPI_ALL_PERIPH(SPIx));
+..\FWLIB\src\stm32f10x_spi.c: 21 warnings, 0 errors
+compiling stm32f10x_usart.c...
+..\FWLIB\src\stm32f10x_usart.c(132): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(183): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(305): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_123_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(353): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(392): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(450): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(478): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(501): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(520): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(549): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(568): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(594): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(611): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(627): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(643): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_123_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(663): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(682): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_123_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(707): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_123_PERIPH(USARTx));  
+..\FWLIB\src\stm32f10x_usart.c(733): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(764): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(791): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(820): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(839): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(877): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(925): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(961): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c(1034): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_USART_ALL_PERIPH(USARTx));
+..\FWLIB\src\stm32f10x_usart.c: 27 warnings, 0 errors
+compiling delay.c...
+compiling main.c...
+compiling stm32f10x_tim.c...
+..\FWLIB\src\stm32f10x_tim.c(124): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx)); 
+..\FWLIB\src\stm32f10x_tim.c(230): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx)); 
+..\FWLIB\src\stm32f10x_tim.c(283): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(366): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST6_PERIPH(TIMx)); 
+..\FWLIB\src\stm32f10x_tim.c(448): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx)); 
+..\FWLIB\src\stm32f10x_tim.c(527): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx)); 
+..\FWLIB\src\stm32f10x_tim.c(589): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_CHANNEL(TIM_ICInitStruct->TIM_Channel));  
+..\FWLIB\src\stm32f10x_tim.c(658): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(714): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST2_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(808): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(833): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST2_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(874): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(911): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(939): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST4_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(966): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST9_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(991): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1010): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1038): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1079): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1120): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1152): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1178): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1202): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1232): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1271): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST5_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1318): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1342): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1366): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1390): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1411): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1435): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST2_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1460): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST4_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1485): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST5_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1512): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1537): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1561): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1585): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1609): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1635): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1660): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1685): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1710): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1736): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1760): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1784): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1808): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1831): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST2_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1855): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1878): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST1_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1902): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1926): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST1_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1950): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(1978): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2008): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST2_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2050): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2094): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2122): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2146): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2172): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2204): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST7_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2227): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2248): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2266): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2280): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2294): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2308): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2322): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2336): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2355): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2377): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2399): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2421): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2443): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2459): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2472): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2485): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx)); 
+..\FWLIB\src\stm32f10x_tim.c(2498): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2511): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2524): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2559): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2602): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2636): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c(2678): warning:  #223-D: function "assert_param" declared implicitly
+    assert_param(IS_TIM_ALL_PERIPH(TIMx));
+..\FWLIB\src\stm32f10x_tim.c: 83 warnings, 0 errors
+compiling stm32f10x_it.c...
+compiling system_stm32f10x.c...
+linking...
+.\Objects\1-led.axf: Error: L6218E: Undefined symbol assert_param (referred from misc.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 1 error messages.
+".\Objects\1-led.axf" - 1 Error(s), 380 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:\zhi nen xiao che\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
