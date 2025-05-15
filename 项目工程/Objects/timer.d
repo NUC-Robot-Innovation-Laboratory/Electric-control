@@ -1,0 +1,13 @@
+.\objects\timer.o: SYSTEM\TIMER\timer.c
+.\objects\timer.o: SYSTEM\TIMER\timer.h
+.\objects\timer.o: .\start\stm32f10x.h
+.\objects\timer.o: .\start\core_cm3.h
+.\objects\timer.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timer.o: .\start\system_stm32f10x.h
+.\objects\timer.o: .\SYSTEM\SYS\sys.h
+.\objects\timer.o: .\SYSTEM\LED\led.h
+.\objects\timer.o: .\SYSTEM\SYS\sys.h
+.\objects\timer.o: .\SYSTEM\USART\usart.h
+.\objects\timer.o: D:\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\timer.o: D:\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\timer.o: D:\keil\ARM\ARMCC\Bin\..\include\string.h

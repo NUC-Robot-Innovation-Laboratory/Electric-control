@@ -1,0 +1,10 @@
+.\objects\key.o: SYSTEM\KEY\key.c
+.\objects\key.o: SYSTEM\KEY\key.h
+.\objects\key.o: .\start\stm32f10x.h
+.\objects\key.o: .\start\core_cm3.h
+.\objects\key.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\key.o: .\start\system_stm32f10x.h
+.\objects\key.o: .\SYSTEM\SYS\sys.h
+.\objects\key.o: .\SYSTEM\LED\led.h
+.\objects\key.o: .\SYSTEM\SYS\sys.h
+.\objects\key.o: .\SYSTEM\DELAY\delay.h
