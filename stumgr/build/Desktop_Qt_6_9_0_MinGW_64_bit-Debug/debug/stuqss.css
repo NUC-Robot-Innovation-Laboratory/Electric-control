@@ -1,0 +1,29 @@
+QPushButton{border-radius:6;color:white;background-color:#34495e;}
+QLabel{color:#34495e;}
+QLabel#lb1{color:#34495e;font-size: 22;}
+QLabel#lb2{color:#34495e;font-size: 22;}
+QLineEdit{border: 2px soild #bdc3c7;min-height:24;border-radius:6;}
+QCheckBox{
+    color: #34495e;
+}
+QWidget#treeWidget{background-color:#34495e;}
+QPushButton[btn="main"]{min-width:50;min-height:15;border-radius:6;color:white;background-color:#165e01;}
+QPushButton[btn="main"]:pressed{min-width:50;min-height:15;border-radius:6;color:white;background-color:#2ecc00;}
+QTableWidget#tableWidget{border:none;}
+QHeaderView::section{
+    color:black;
+    font:bold 18px "微软雅黑";
+    font-weight: bold;
+    background-color: rgb(170, 255, 255);
+    text-align:center;
+    height:20px;
+    color:#909399;
+    border: 1px solid gray;
+    border-left: none;
+    
+}
+QTableView::item{
+    font: 14px "微软雅黑";
+    color: #677483;
+    border:none;
+}
