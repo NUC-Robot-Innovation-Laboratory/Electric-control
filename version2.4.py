@@ -140,8 +140,8 @@ FRONT_Z_MIN_MM = 1680.0
 FRONT_Z_MAX_MM = 2280.0
 FRONT_Y_TOP_ABS_MM = 500.0    # 靠近相机（上底）的 |Y| 上
 FRONT_Y_BOTTOM_ABS_MM = 700.0 # 远离相机（下底）的 |Y| 上限
-FRONT_LEFT_AREA_ID = 1        # Y<0 -> 正面1区
-FRONT_RIGHT_AREA_ID = 2       # Y>=0 -> 正面2区
+FRONT_LEFT_AREA_ID = 1        # Y>0 -> 正面1区
+FRONT_RIGHT_AREA_ID = 2       # Y<=0 -> 正面2区
 
 # 侧面相机（Cam 1）：矩形视野（单位 mm）
 SIDE_Y_MIN_MM = -2325.0
@@ -149,9 +149,9 @@ SIDE_Y_MAX_MM = -1325.0
 SIDE_Z_ABS_MAX_MM = 830.0
 # 450 / 500 / 450 的左右宽度 -> Z 分界在 ±250 mm
 SIDE_Z_SPLIT_CENTER_MM = 250.0
-SIDE_LEFT_AREA_ID = 3          # Z in [+250, +700]
+SIDE_LEFT_AREA_ID = 3          # Z in [+250, +830]
 SIDE_MID_AREA_ID  = 4          # Z in [-250, +250]
-SIDE_RIGHT_AREA_ID= 5          # Z in [-700, -250]
+SIDE_RIGHT_AREA_ID= 5          # Z in [-830, -250]
 
 
 # 侧面相机（Cam 2）：矩形视野（单位 mm）
@@ -160,9 +160,9 @@ SIDE_R_Y_MIN_MM = 1325.0
 SIDE_R_Z_ABS_MAX_MM = 830.0
 # 450 / 500 / 450 的左右宽度 -> Z 分界在 ±250 mm
 SIDE_R_Z_SPLIT_CENTER_MM = 250.0
-SIDE_R_LEFT_AREA_ID = 6          # Z in [+250, +810]
+SIDE_R_LEFT_AREA_ID = 6          # Z in [+250, +830]
 SIDE_R_MID_AREA_ID  = 7          # Z in [-250, +250]
-SIDE_R_RIGHT_AREA_ID= 8          # Z in [-810, -250]
+SIDE_R_RIGHT_AREA_ID= 8          # Z in [-830, -250]
 
 # ========区域Area 辅助划分函数======================
 def _classify_front_area_swapped(wy_mm, wz_mm):
